@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "oceanbeem.aternos.me",
+    "ip": "civilization9806.aternos.me",
     "port": 41124,
     "version": "1.21.1",
     "try-creative": false
@@ -24,16 +24,14 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Type /team create ..... to create Your Civilization"
       ]
     },
     "chat-log": true,
@@ -42,9 +40,9 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
@@ -53,7 +51,7 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
